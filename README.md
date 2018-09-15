@@ -1,5 +1,6 @@
 # xy-coordinate-converter  [![NPM version][npm-image]][npm-url] [![NPM Downloads][npm-downloads-image]][npm-url]
-Converts XY coordinates to Lat/Lon positions
+
+Get the latlon position of an XY position using its origin.
 
 ```
 # install
@@ -10,6 +11,7 @@ npm run build
 
 # test
 npm test
+
 ```
 
 ## License
