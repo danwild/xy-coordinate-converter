@@ -1,8 +1,8 @@
 {
   "name": "xy-coordinate-converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts XY coordinates to Lat/Lon positions",
-  "main": "converter.js",
+  "main": "dist/xy-coordinate-converter.js",
   "scripts": {
     "build": "node_modules/gulp/bin/gulp.js build",
     "watch": "node_modules/gulp/bin/gulp.js",
