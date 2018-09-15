@@ -8,10 +8,10 @@ const nodeResolve   = require('rollup-plugin-node-resolve');
 gulp.task('build', function() {
 
 	return rollup.rollup({
-			input: './src/converter.js',
+			input: './src/xy-coordinate-converter.js',
 			output: {
 				format: 'umd',
-				name: 'converter'
+				name: 'xy-coordinate-converter'
 			},
 			plugins: [
 				babel({
@@ -37,9 +37,9 @@ gulp.task('build', function() {
 		// and output to ./dist/app.js as normal.
 		.then(bundle => {
 			return bundle.write({
-				file: './dist/converter.js',
+				file: './dist/xy-coordinate-converter.js',
 				format: 'umd',
-				name: 'converter',
+				name: 'xy-coordinate-converter',
 				sourcemap: true
 			});
 		});

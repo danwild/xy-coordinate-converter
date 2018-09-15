@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
-	(global.converter = factory());
+	(global['xy-coordinate-converter'] = factory());
 }(this, (function () { 'use strict';
 
 	const _RADIANS = 57.2957795;
@@ -59,4 +59,4 @@
 	return CoordinateConverter;
 
 })));
-//# sourceMappingURL=converter.js.map
+//# sourceMappingURL=xy-coordinate-converter.js.map

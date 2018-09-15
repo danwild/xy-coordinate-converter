@@ -1,6 +1,6 @@
 {
   "name": "xy-coordinate-converter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Converts XY coordinates to Lat/Lon positions",
   "main": "converter.js",
   "scripts": {
